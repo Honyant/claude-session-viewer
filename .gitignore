@@ -1,0 +1,36 @@
+# Swift/Xcode
+.build/
+.swiftpm/
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.moved-aside
+*.hmap
+*.ipa
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# App bundle & DMG build artifacts
+*.app
+*.dmg
+dmg-staging/
+
+# Dependencies
+Packages/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
