@@ -20,6 +20,12 @@ A native macOS app to browse, search, and view your [Claude Code](https://docs.a
 
 Download the latest `.dmg` from [Releases](https://github.com/Honyant/claude-session-viewer/releases), open it, and drag **Claude Session Viewer** into your Applications folder.
 
+Since the app is not notarized, macOS will quarantine it. After installing, run:
+
+```bash
+xattr -cr /Applications/Claude\ Session\ Viewer.app
+```
+
 ### Build from source
 
 Requires macOS 13+ and Swift 5.9+.
